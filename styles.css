@@ -1,0 +1,20 @@
+ul {
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	padding-right: 1rem;
+}
